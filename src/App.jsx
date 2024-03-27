@@ -1,10 +1,11 @@
-function App() {
+import Homepages from "./pages/Homepages";
 
+function App() {
   return (
-    <>
-      <h1>final-project</h1>
-    </>
-  )
+    <div>
+      <Homepages></Homepages>
+    </div>
+  );
 }
 
-export default App
+export default App;
