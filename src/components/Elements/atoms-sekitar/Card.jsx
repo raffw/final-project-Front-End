@@ -5,7 +5,7 @@ const Card = (props) => {
     <div className="p-0 font-poppins group-hover: scale-[0.95] hover:!scale-100 duration-300 text-sm border-2 border-grey rounded-xl h-78 w-52">
       <a href="../pages/FoodDetail.jsx">
         <img
-          src="../public/assets/fried-rice-631188_1280.jpg"
+          src="../assets/fried-rice-631188_1280.jpg"
           alt=""
           className="rounded-xl h-48 w-52"
         />
@@ -19,11 +19,11 @@ const Card = (props) => {
             </h1>
           </div>
           <h1 className="flex bottom-0 h-full px-4 text-xs ">
-            <img src="../public/icon/Star 1.svg" alt="" />
-            <img src="../public/icon/Star 1.svg" alt="" />
-            <img src="../public/icon/Star 1.svg" alt="" />
-            <img src="../public/icon/Star 1.svg" alt="" />
-            <img src="../public/icon/Star 1.svg" alt="" />
+            <img src="../icon/Star 1.svg" alt="" />
+            <img src="../icon/Star 1.svg" alt="" />
+            <img src="../icon/Star 1.svg" alt="" />
+            <img src="../icon/Star 1.svg" alt="" />
+            <img src="../icon/Star 1.svg" alt="" />
             5.0 | 10x Terjual
           </h1>
         </div>

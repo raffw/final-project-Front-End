@@ -2,7 +2,7 @@ const Loss = () => {
     return (
         <div class="flex items center justify-center">
           <a href="">
-            <img src="../public/assets/Money.png" alt="" class="w-54 h-52" />
+            <img src="../assets/Money.png" alt="" class="w-54 h-52" />
             <div class="font-poppins font-bold text-lg">
               <h1 class="flex justify-center">Rp.1.500.000.000</h1>
               <h1 class="text-base text-abu font-semibold">

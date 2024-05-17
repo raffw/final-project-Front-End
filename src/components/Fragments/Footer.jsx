@@ -22,22 +22,22 @@ export default function Footer() {
             <h1 className="font-bold">Cari tahu informasi terbaru</h1>
             <div className="py-5 flex gap-3 items-center">
               <a href="">
-                <img src="../../public/icon/icon-footer/vector.svg" alt="" />
+                <img src="../icon/icon-footer/vector.svg" alt="" />
               </a>
               <a href="">
-                <img src="../../public/icon/icon-footer/gmail.svg" alt="" />
+                <img src="../icon/icon-footer/gmail.svg" alt="" />
               </a>
               <a href="">
-                <img src="../../public/icon/icon-footer/linkedin.svg" alt="" />
+                <img src="../icon/icon-footer/linkedin.svg" alt="" />
               </a>
               <a href="">
-                <img src="../../public/icon/icon-footer/Whatsapp.svg" alt="" />
+                <img src="../icon/icon-footer/Whatsapp.svg" alt="" />
               </a>
               <a href="">
-                <img src="../../public/icon/icon-footer/Youtube.svg" alt="" />
+                <img src="../icon/icon-footer/Youtube.svg" alt="" />
               </a>
               <a href="">
-                <img src="../../public/icon/icon-footer/twitter.svg" alt="" />
+                <img src="../icon/icon-footer/twitter.svg" alt="" />
               </a>
             </div>
             <div>
@@ -45,13 +45,13 @@ export default function Footer() {
               <div className="flex gap-5">
                 <a href="">
                   <img
-                    src="../../public/icon/icon-footer/playstore.svg"
+                    src="../icon/icon-footer/playstore.svg"
                     alt=""
                   />
                 </a>
                 <a href="">
                   <img
-                    src="../../public/icon/icon-footer/AppStore.svg"
+                    src="../icon/icon-footer/AppStore.svg"
                     alt=""
                   />
                 </a>
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
         <div className="flex justify-between items-center px-20">
           <a href="">
-            <img src="../../public/icon/icon-footer/certified.svg" alt="" />
+            <img src="../icon/icon-footer/certified.svg" alt="" />
           </a>
           <p className="w-1/3 text-end">
             Surplus Indonesia - PT Ekonomi Sirkular Indonesia Jl Gudang Peluru

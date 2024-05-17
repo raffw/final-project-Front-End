@@ -1,5 +1,5 @@
-import ButtLog from "../../atoms/Homepages/atoms-nav/Button-nav";
-import SearchBar from "../../atoms/Homepages/atoms-nav/Search-bar";
+import ButtLog from "../Elements/atoms-nav/Button-nav";
+import SearchBar from "../Elements/atoms-nav/Search-bar";
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
         <SearchBar></SearchBar>
         <div className="flex gap-4 px-4 items-center">
           <a href="">
-            <img src="../public/icon/basket.svg" className="w-9" alt="" />
+            <img src="../icon/basket.svg" className="w-9" alt="" />
           </a>
           <ButtLog></ButtLog>
         </div>
@@ -25,7 +25,7 @@ const Navbar = () => {
         <a href="">Naikkan levelmu disini! Transaksi 0 lagi !</a>
         <a href="" className="flex gap-2">
           Atur Lokasi
-          <img src="../public/icon/Vector.svg" alt="" />
+          <img src="../icon/Vector.svg" alt="" />
         </a>
       </div>
     </nav>

@@ -1,5 +1,5 @@
-import Card from "../../atoms/Homepages/atoms-sekitar/Card";
-import SlideButt from "../../atoms/Homepages/atoms-sekitar/Slide-Button";
+import Card from "../Elements/atoms-sekitar/Card";
+import SlideButt from "../Elements/atoms-sekitar/Slide-Button";
 
 const Terdekat = () => {
   return (
