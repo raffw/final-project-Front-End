@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Card from "../../atoms/Homepages/atoms-sekitar/Card";
 import SlideButt from "../../atoms/Homepages/atoms-sekitar/Slide-Button";
-import { fetchCardCall } from "../../Services/Card-Service";
+// import { fetchCardCall } from "../../Services/Card-Service";
 
 const Sekitar = () => {
   const [sekitar, setSekitar] = useState([]);
@@ -11,10 +11,10 @@ const Sekitar = () => {
   };
 
   useEffect(() => {
-    fetchCard();
+    // fetchCard();
   }, []);
 
-  console.log(sekitar)
+  // console.log(sekitar)
 
   return (
     <div>
