@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
-import SlideCaraousel from "../../atoms/Homepages/atoms-caraousel/Slide-Caraousel";
+import SlideCaraousel from "../Elements/atoms-caraousel/Slide-Caraousel";
 
 const Caraousel = () => {
   const [imgSlide, setImgSlide] = useState([]);
 
-  const carou = "caraousel.json";
+  // const carou = "caraousel.json";
 
-  fetch(carou)
-    .then((result) => result.json())
-    .then((data) => setImgSlide(data));
+  // fetch(carou)
+  //   .then((result) => result.json())
+  //   .then((data) => setImgSlide(data));
 
   // const fetchData = async () => {
   //   const data = await fetchDataCall();

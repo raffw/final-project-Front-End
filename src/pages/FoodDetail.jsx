@@ -1,4 +1,4 @@
-import Navbar from "../component/Component-Homepages/Nav"
+import Navbar from "../components/Elements/Navbar"
 
 const Detail = () => {
     return (

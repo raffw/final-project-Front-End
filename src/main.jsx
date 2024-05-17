@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import './App.jsx'
+// import './App.jsx'
 import { createBrowserRouter, RouterProvider }  from "react-router-dom"
 
 import Homepages from "./pages/Homepages";
@@ -24,8 +24,8 @@ const router = createBrowserRouter([
 //     errorElement: <ErrorPage />,
 // },
 {
-    path: "/home",
-    rElement: <Homepages />,
+    path: "/",
+    element: <Homepages/>,
 }
 // {
 //   path: "/login",
