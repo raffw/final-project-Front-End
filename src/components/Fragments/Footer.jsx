@@ -59,11 +59,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center px-20">
+        <div className="md:flex justify-between items-center px-20">
           <a href="">
             <img src="../icon/icon-footer/certified.svg" alt="" />
           </a>
-          <p className="w-1/3 text-end">
+          <p className="md:w-1/3 text-end">
             Surplus Indonesia - PT Ekonomi Sirkular Indonesia Jl Gudang Peluru
             Timur Blok H no. 201, Kebon Baru, Tebet, Kota Jakarta Selatan, DKI
             Jakarta, Indonesia
