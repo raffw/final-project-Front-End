@@ -8,7 +8,9 @@ export default {
         "hijau-muda" : '#44C2AC',
         "grey" : '#D9D9D9', 
         "stroke" : '#DBEEEC',
-        "abu" : '#A5A5A5'
+        "abu" : '#A5A5A5',
+        darkGreen: '#00897B',
+        midGreen: '#44C2AC',
   }
     },
   },
