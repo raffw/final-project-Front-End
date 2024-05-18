@@ -4,21 +4,21 @@ export default function Footer() {
       <hr className="w-full"></hr>
       <footer className="flex flex-col py-10">
         <div className="flex h-1/5 bg-transparent justify-between">
-          <div className="py-5 px-20 pr-0 ">
+          <div className="py-1 px-20 pr-0 ">
             <h1 className="font-bold">BISNIS</h1>
-            <div className="py-5 w-40">
+            <div className="py-3 w-40">
               <p>Kebijakan Privasi</p>
               <p>Syarat dan Ketentuan</p>
             </div>
           </div>
-          <div className="py-5 px-20 pr-0 ">
+          <div className="py-1 px-20 pr-0 ">
             <h1 className="font-bold">PELANGGAN</h1>
-            <div className="py-5 w-40">
+            <div className="py-3 w-40">
               <p>Kebijakan Privasi</p>
               <p>Syarat dan Ketentuan</p>
             </div>
           </div>
-          <div className="flex flex-col py-10 px-10 w-1/2 bg-transparent items-center">
+          <div className="flex flex-col px-10 w-1/2 bg-transparent items-center">
             <h1 className="font-bold">Cari tahu informasi terbaru</h1>
             <div className="py-5 flex gap-3 items-center">
               <a href="">

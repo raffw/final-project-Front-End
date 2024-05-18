@@ -10,7 +10,7 @@ import RegisterPage from "./pages/register";
 import ErrorPage from "./pages/404";
 // import ProductsPage from './pages/products';
 import CheckoutPage from './pages/checkout';
-// import DetailProductPage from './pages/product';
+import DetailProductPage from './pages/product';
 // import CardSpecification from './components/Fragments/CardSpecification';
 // import CardSeller from './components/Fragments/CardSeller';
 // import CardItem from './components/Fragments/CardItem';
@@ -43,10 +43,10 @@ const router = createBrowserRouter([
   path: "/checkout",
   element: <CheckoutPage/>,
 },
-// {
-//   path: "/product",
-//   element: <DetailProductPage/>,
-// },
+{
+  path: "/product",
+  element: <DetailProductPage/>,
+},
 // {
 //   path: "/specification",
 //   element: <CardSpecification/>,
