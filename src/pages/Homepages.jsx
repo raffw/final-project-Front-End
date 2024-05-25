@@ -1,9 +1,11 @@
-import Navbar from "../component/Component-Homepages/Nav";
-import Caraousel from "../component/Component-Homepages/Caraousel";
-import Category from "../component/Component-Homepages/Category";
-import Footer from "../component/Component-Homepages/Footer";
-import Dampak from "../component/Component-Homepages/Dampak"
-import Menu from "../component/Component-Homepages/Menu";
+import Navbar from "../components/Fragments/Nav";
+import Caraousel from "../components/Fragments/Caraousel";
+import Category from "../components/Fragments/Category";
+import Terdekat from "../components/Fragments/Terdekat";
+import Sekitar from "../components/Fragments/Sekitar";
+import Dampak from "../components/Fragments/Dampak";
+import Terlaris from "../components/Fragments/Terlaris";
+import Footer from "../components/Fragments/Footer";
 
 const Homepages = () => {
   return (
