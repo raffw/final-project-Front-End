@@ -1,13 +1,8 @@
-const Grid = () => {
+const Grid = ({ name, image }) => {
   return (
-    <div className="grid-rows-3 w-32 flex justify-center text-center group-hover : scale-[0.97] hover:!scale-100 duration-300">
-      <a href="">
-        <img
-          src="../public/image/orange jus crop.png"
-          className="w-28 rounded-xl"
-        />
-        <h1>minuman</h1>
-      </a>
+    <div className="w-30 h-28 cursor-pointer flex flex-col text-center bg-slate-200 "> 
+      <img src={image} alt="" className="rounded-lg w-full h-20" />
+      <h2 className="w-full">{name}</h2>
     </div>
   );
 };

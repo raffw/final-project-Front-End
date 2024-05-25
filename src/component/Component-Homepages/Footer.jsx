@@ -18,7 +18,7 @@ export default function Footer() {
               <p>Syarat dan Ketentuan</p>
             </div>
           </div>
-          <div className="flex flex-col py-10 px-10 w-1/2 bg-transparent items-center">
+          <div className="flex flex-col py-5 px-10 w-1/2 bg-transparent items-center">
             <h1 className="font-bold">Cari tahu informasi terbaru</h1>
             <div className="py-5 flex gap-3 items-center">
               <a href="">
@@ -61,7 +61,11 @@ export default function Footer() {
         </div>
         <div className="flex justify-between items-center px-20">
           <a href="">
-            <img src="../../public/icon/icon-footer/certified.svg" alt="" />
+            <img
+              src="../../public/icon/icon-footer/certified.svg"
+              alt=""
+              className="w-72"
+            />
           </a>
           <p className="w-1/3 text-end">
             Surplus Indonesia - PT Ekonomi Sirkular Indonesia Jl Gudang Peluru

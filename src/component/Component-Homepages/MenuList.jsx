@@ -1,27 +1,37 @@
-import SlideCaraousel from "../../atoms/Homepages/atoms-caraousel/SlideCaraousel";
+import Card from "../../atoms/Homepages/atoms-menu/Card";
+import { getApi } from "../../Services/Card-Service";
+import React, { useRef } from "react";
+import { useState, useEffect } from "react";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";
-import { useRef } from "react";
 
 const screenWidth = window.innerWidth;
-const Caraousel = () => {
+function MenuList() {
+  const [menu, setMenu] = useState([]);
   const elementRef = useRef();
-  const img = [
-    {
-      name: "https://images.tokopedia.net/img/cache/1200/NXCtjv/2023/10/12/853474a7-85ad-47a9-ae91-de3b27f7652f.jpg.webp",
-    },
-    {
-      name: "https://images.tokopedia.net/img/cache/1190/wmEwCC/2024/3/6/31626822-c1e0-4785-932c-58b8abd86ce9.jpg.webp?ect=4g",
-    },
-    {
-      name: "../public/image/gambar tokped 1.png",
-    },
-  ];
+
+  useEffect(() => {
+    recipe();
+  }, []);
+
+  const recipe = async () => {
+    const data = await getApi();
+    setMenu(data.data.items);
+  };
 
   const sliderRight = (element) => {
     element.scrollLeft += screenWidth - 110;
   };
   const sliderLeft = (element) => {
     element.scrollLeft -= screenWidth - 110;
+  };
+
+  const searchData = async (query) => {
+    setIsLoading(true);
+    const data = await searchDataCall(query);
+    if (data.data.products) {
+      setIsLoading(false);
+      setDataProducts(data.data.products);
+    }
   };
 
   return (
@@ -40,15 +50,15 @@ const Caraousel = () => {
       />
 
       <div
-        className="flex overflow-x-auto w-full px-16 py-4 scrollbar-none scroll-smooth"
+        className="flex py-2 gap-2 overflow-x-auto scrollbar-none scroll-smooth"
         ref={elementRef}
       >
-        {img.map((item, index) => (
-          <SlideCaraousel name={item.name} key={index} />
+        {menu.map((item, index) => (
+          <Card cards={item} key={index}></Card>
         ))}
       </div>
     </div>
   );
-};
+}
 
-export default Caraousel;
+export default MenuList;

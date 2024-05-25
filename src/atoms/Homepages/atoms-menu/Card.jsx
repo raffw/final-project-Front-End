@@ -1,18 +1,16 @@
-const Card = (props) => {
-  const card = props.cards;
-  console.log(card);
+const Card = ({ cards }) => {
   return (
-    <div className="p-0 font-poppins group-hover: scale-[0.95] hover:!scale-100 duration-300 text-sm border-2 border-grey rounded-xl h-78 w-52">
+    <div className=" font-poppins text-sm border-2 border-grey rounded-xl h-78 w-52">
       <a href="../pages/FoodDetail.jsx">
         <img
-          src="../public/assets/fried-rice-631188_1280.jpg"
+          src={cards.imageUrl}
           alt=""
-          className="rounded-xl h-48 w-52"
+          className="rounded-xl h-48 w-52 group-hover: scale-[0.95] hover:!scale-100 duration-300"
         />
         <div>
           <div className="p-4">
             <h1 className="text-xs p-0 text-hijau-muda py-2">5 tersedia</h1>
-            <h1 className="font-semibold">Nasi Goreng</h1>
+            <h1 className="font-semibold">{cards.groupName}</h1>
             <h1 className="text-xs py-2">Ambil hari ini, 21.00-22.00</h1>
             <h1 className="flex gap-1">
               50%<span className="line-through">30.000</span>15.000
