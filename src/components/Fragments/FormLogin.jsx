@@ -6,7 +6,7 @@ const FormLogin = () => {
     e.preventDefault();
     localStorage.setItem("email", e.target.email.value);
     localStorage.setItem("password", e.target.password.value);
-    window.location.href = "/products";
+    window.location.href = "/";
   };
     return (
         <form onSubmit={handleLogin}>
@@ -19,7 +19,7 @@ const FormLogin = () => {
         <InputForm
           label = "Password"
           type = "password"
-          placeholder = "*******"
+          placeholder = "password"
           name = "password"
         />
         <Button classname="bg-white w-full border-2 border-midGreen" type="submit"

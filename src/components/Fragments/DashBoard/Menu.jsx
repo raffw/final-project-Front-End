@@ -26,7 +26,9 @@ const Menu = () => {
               Semua
             </button>
           </div>
+          <div>
           <MenuList />
+          </div>
         </div>
       ))}
     </div>

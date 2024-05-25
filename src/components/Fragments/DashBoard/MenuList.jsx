@@ -1,5 +1,5 @@
-import Card from "../../atoms/Homepages/atoms-menu/Card";
-import { getApi } from "../../Services/Card-Service";
+import Card from "../../Elements/Menu/Card";
+import { getApi } from "../../../Services/Card-Service";
 import React, { useRef } from "react";
 import { useState, useEffect } from "react";
 import { HiChevronLeft, HiChevronRight } from "react-icons/hi2";

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import Card from "../Elements/atoms-sekitar/Card";
-import SlideButt from "../Elements/atoms-sekitar/Slide-Button";
+import Card from "../../Elements/Menu/Card";
+import SlideButt from "../../Elements/Menu/Slide-Button";
 // import { fetchCardCall } from "../../Services/Card-Service";
 // import { fetchCardCall } from "../../Services/Card";
 

@@ -1,6 +1,6 @@
-import Save from "../Elements/atoms-dampak/Save";
-import Co2 from "../Elements/atoms-dampak/Co2";
-import Loss from "../Elements/atoms-dampak/Loss";
+import Save from "../../Elements/recycle/Save";
+import Co2 from "../../Elements/recycle/Co2";
+import Loss from "../../Elements/recycle/Loss";
 
 const Dampak = () => {
   return (

@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
-import SlideCaraousel from "../Elements/atoms-caraousel/Slide-Caraousel";
+import { useRef } from "react";
+import { HiChevronLeft, HiChevronRight } from "react-icons/hi";
+import SlideCaraousel from "../../Elements/caraousel/SlideCaraousel";
 
 const screenWidth = window.innerWidth;
 const Caraousel = () => {
@@ -16,20 +17,12 @@ const Caraousel = () => {
     },
   ];
 
-  // const carou = "caraousel.json";
-
-  // fetch(carou)
-  //   .then((result) => result.json())
-  //   .then((data) => setImgSlide(data));
-
-  // const fetchData = async () => {
-  //   const data = await fetchDataCall();
-  //   setMovies(data.data.results);
-  // };
-
-  // useEffect(() => {
-  //   fetchData();
-  // }, []);
+  const sliderRight = (element) => {
+    element.scrollLeft += screenWidth - 110;
+  };
+  const sliderLeft = (element) => {
+    element.scrollLeft -= screenWidth - 110;
+  };
 
   return (
     <div>

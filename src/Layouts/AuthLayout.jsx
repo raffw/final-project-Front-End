@@ -12,17 +12,6 @@ const AuthLayout = (prop) => {
         </p>
         {children}
         <Navigation type = { type }/>
-        {/* <p className="text-sm mt-5 text-center">
-           {type === 'login' ? "Don't have an account? " : "Alaready  have an account? "}
-
-           {type === 'login' && (
-           <Link to="/register" className="font-bold text-blue-600">Sign Up, Now!</Link> 
-          )}
-
-          {type === 'register' && (
-           <Link to="/login" className="font-bold text-blue-600">Sign in, Now!</Link> 
-          )} 
-        </p> */}
       </div>
       </div>
     )

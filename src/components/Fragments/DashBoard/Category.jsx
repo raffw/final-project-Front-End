@@ -1,7 +1,7 @@
-import Grid from "../Elements/atoms-category/grid";
-import SurplusPay from "../Elements/atoms-category/Surplus-pay"
-import Voucher from "../Elements/atoms-category/Voucher"
-import Bonus from "../Elements/atoms-category/Bonus-Coin"
+import Grid from "../../Elements/category/grid";
+import SurplusPay from "../../Elements/category/Surplus-pay"
+import Voucher from "../../Elements/category/Voucher"
+import Bonus from "../../Elements/category/Bonus-Coin"
 
 const Category = () => {
   const categoryList = [

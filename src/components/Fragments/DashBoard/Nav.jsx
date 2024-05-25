@@ -1,5 +1,5 @@
-import ButtLog from "../Elements/atoms-nav/Button-nav";
-import SearchBar from "../Elements/atoms-nav/Search-bar";
+import ButtLog from "../../Elements/navbar/Button-nav";
+import SearchBar from "../../Elements/navbar/Search-bar";
 
 const Navbar = () => {
   return (
