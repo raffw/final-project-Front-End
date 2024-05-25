@@ -3,7 +3,7 @@ import Homepages from "./pages/Homepages";
 function App() {
   return (
     <div>
-      <Homepages></Homepages>
+      <Homepages/>
     </div>
   );
 }
